@@ -1,0 +1,46 @@
+{
+  "name": "React-ImageManager",
+  "version": "0.72.5",
+  "summary": "Fabric for React Native.",
+  "homepage": "https://reactnative.dev/",
+  "license": "MIT",
+  "authors": "Meta Platforms, Inc. and its affiliates",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "git": "https://github.com/facebook/react-native.git",
+    "tag": "v0.72.5"
+  },
+  "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation",
+  "source_files": "**/*.{m,mm,cpp,h}",
+  "header_dir": "react/renderer/imagemanager",
+  "pod_target_xcconfig": {
+    "USE_HEADERMAP": "NO",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/../../../\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/RCT-Folly\"",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17"
+  },
+  "dependencies": {
+    "RCT-Folly/Fabric": [
+
+    ],
+    "React-Fabric": [
+
+    ],
+    "React-Core/Default": [
+
+    ],
+    "React-RCTImage": [
+
+    ],
+    "React-debug": [
+
+    ],
+    "React-utils": [
+
+    ],
+    "glog": [
+
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "React-RCTAppDelegate",
+  "version": "0.72.5",
+  "summary": "An utility library to simplify common operations for the New Architecture",
+  "homepage": "https://reactnative.dev/",
+  "documentation_url": "https://reactnative.dev/docs/actionsheetios",
+  "license": "MIT",
+  "authors": "Meta Platforms, Inc. and its affiliates",
+  "platforms": {
+    "ios": "12.4"
+  },
+  "source": {
+    "git": "https://github.com/facebook/react-native.git",
+    "tag": "v0.72.5"
+  },
+  "source_files": "**/*.{c,h,m,mm,S,cpp}",
+  "compiler_flags": "$(inherited) -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DRCT_NEW_ARCH_ENABLED -DRN_FABRIC_ENABLED",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/Headers/Private/React-Core\" \"$(PODS_ROOT)/boost\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/RCT-Folly\" \"${PODS_ROOT}/Headers/Public/FlipperKit\" \"$(PODS_ROOT)/Headers/Public/ReactCommon\" \"$(PODS_ROOT)/Headers/Public/React-RCTFabric\"",
+    "OTHER_CPLUSPLUSFLAGS": "$(inherited) -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DRCT_NEW_ARCH_ENABLED -DRN_FABRIC_ENABLED",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17"
+  },
+  "user_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/React-Core\""
+  },
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "RCT-Folly": [
+
+    ],
+    "RCTRequired": [
+
+    ],
+    "RCTTypeSafety": [
+
+    ],
+    "ReactCommon/turbomodule/core": [
+
+    ],
+    "React-RCTNetwork": [
+
+    ],
+    "React-RCTImage": [
+
+    ],
+    "React-NativeModulesApple": [
+
+    ],
+    "React-CoreModules": [
+
+    ],
+    "React-runtimescheduler": [
+
+    ],
+    "React-jsc": [
+
+    ],
+    "React-RCTFabric": [
+
+    ],
+    "React-graphics": [
+
+    ],
+    "React-utils": [
+
+    ],
+    "React-debug": [
+
+    ]
+  },
+  "script_phases": {
+    "name": "Generate Legacy Components Interop",
+    "script": "\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nsource $WITH_ENVIRONMENT\n${NODE_BINARY} ${REACT_NATIVE_PATH}/scripts/codegen/generate-legacy-interop-components.js -p /Users/atlantica/Desktop/git/react-native/ios/.. -o ${REACT_NATIVE_PATH}/Libraries/AppDelegate\n      ",
+    "execution_position": "before_compile",
+    "input_files": [
+      "/Users/atlantica/Desktop/git/react-native/ios/../react-native.config.js"
+    ],
+    "output_files": [
+      "${REACT_NATIVE_PATH}/Libraries/AppDelegate/RCTLegacyInteropComponents.mm"
+    ]
+  }
+}

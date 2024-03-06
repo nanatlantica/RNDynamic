@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA046FC427995428009D5E20 /* DYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA046FC327995428009D5E20 /* DYBaseTableViewController.m */; };
+		AA046FC827995B7B009D5E20 /* DYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA046FC727995B7B009D5E20 /* DYBaseView.m */; };
+		AA0E6809278445F00003CB45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0E6808278445F00003CB45 /* AppDelegate.m */; };
+		AA0E6814278445F30003CB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0E6813278445F30003CB45 /* Assets.xcassets */; };
+		AA0E6817278445F30003CB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0E6815278445F30003CB45 /* LaunchScreen.storyboard */; };
+		AA0E681A278445F30003CB45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0E6819278445F30003CB45 /* main.m */; };
+		AA24BCA327B3ABFC00A6035C /* DYTestingLearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24BCA227B3ABFC00A6035C /* DYTestingLearningViewController.m */; };
+		AA2B85E5279FE1C600068BFA /* DYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B85E4279FE1C600068BFA /* DYBaseTableViewCell.m */; };
+		AA2B85E8279FFCAC00068BFA /* DYTestingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B85E7279FFCAC00068BFA /* DYTestingTableViewCell.m */; };
+		AA2F3132279A9EB20042E104 /* DYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F3131279A9EB20042E104 /* DYBaseTableView.m */; };
+		AA4A01372796ADAE002B804E /* DYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A01362796ADAE002B804E /* DYBaseTabBarController.m */; };
+		AA4A013B27982071002B804E /* DYMainAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A013A27982071002B804E /* DYMainAppearanceManager.m */; };
+		AA54182D279DDC91003726D3 /* DYTestingTableMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54182C279DDC91003726D3 /* DYTestingTableMenuViewController.m */; };
+		AA5E3C232B9740E30099AE74 /* AHReactNativeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E3C212B973F7F0099AE74 /* AHReactNativeSDK.framework */; };
+		AA5E3C242B9740E30099AE74 /* AHReactNativeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E3C212B973F7F0099AE74 /* AHReactNativeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA5E3C482B97411D0099AE74 /* AHRNLinearGradientManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5E3C3D2B97411D0099AE74 /* AHRNLinearGradientManager.mm */; };
+		AA5E3C492B97411D0099AE74 /* AHRNLinearGradientImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E3C402B97411D0099AE74 /* AHRNLinearGradientImpl.m */; };
+		AA5E3C4D2B980C890099AE74 /* AHRNLinearGradient.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA5E3C4B2B980C890099AE74 /* AHRNLinearGradient.mm */; };
+		AA608BF1279DADB200C4BFE8 /* DYTestingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA608BF0279DADB200C4BFE8 /* DYTestingMenuViewController.m */; };
+		AA608BF4279DBC4D00C4BFE8 /* DYTestingMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA608BF3279DBC4D00C4BFE8 /* DYTestingMainTabBarController.m */; };
+		AA867E9C2B98DBF900286DAC /* Props.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA867E982B98DBF900286DAC /* Props.cpp */; };
+		AA867E9D2B98DBF900286DAC /* EventEmitters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA867E992B98DBF900286DAC /* EventEmitters.cpp */; };
+		AA867E9E2B98DBF900286DAC /* ShadowNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA867E9A2B98DBF900286DAC /* ShadowNodes.cpp */; };
+		AA867E9F2B98DBF900286DAC /* States.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA867E9B2B98DBF900286DAC /* States.cpp */; };
+		AAB9D98D27918560003733B9 /* DYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9D98C27918560003733B9 /* DYBaseViewController.m */; };
+		AAB9D9902791862E003733B9 /* DYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9D98F2791862E003733B9 /* DYBaseNavigationController.m */; };
+		AACDC13F27A1482A008B47D5 /* DYBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDC13E27A1482A008B47D5 /* DYBaseLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5E3C252B9740E30099AE74 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA5E3C242B9740E30099AE74 /* AHReactNativeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		513FA18463F7B8B7007C67DF /* Pods_DYSanae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYSanae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCDD40311881556EA59CD80 /* Pods-DYSanae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSanae.release.xcconfig"; path = "Target Support Files/Pods-DYSanae/Pods-DYSanae.release.xcconfig"; sourceTree = "<group>"; };
+		AA046FC227995428009D5E20 /* DYBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseTableViewController.h; sourceTree = "<group>"; };
+		AA046FC327995428009D5E20 /* DYBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseTableViewController.m; sourceTree = "<group>"; };
+		AA046FC627995B7B009D5E20 /* DYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseView.h; sourceTree = "<group>"; };
+		AA046FC727995B7B009D5E20 /* DYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseView.m; sourceTree = "<group>"; };
+		AA0E6804278445F00003CB45 /* DYSanae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYSanae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0E6807278445F00003CB45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0E6808278445F00003CB45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0E6813278445F30003CB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0E6816278445F30003CB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA0E6818278445F30003CB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0E6819278445F30003CB45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA24BCA127B3ABFC00A6035C /* DYTestingLearningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTestingLearningViewController.h; sourceTree = "<group>"; };
+		AA24BCA227B3ABFC00A6035C /* DYTestingLearningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTestingLearningViewController.m; sourceTree = "<group>"; };
+		AA2B85E3279FE1C600068BFA /* DYBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseTableViewCell.h; sourceTree = "<group>"; };
+		AA2B85E4279FE1C600068BFA /* DYBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseTableViewCell.m; sourceTree = "<group>"; };
+		AA2B85E6279FFCAC00068BFA /* DYTestingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTestingTableViewCell.h; sourceTree = "<group>"; };
+		AA2B85E7279FFCAC00068BFA /* DYTestingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTestingTableViewCell.m; sourceTree = "<group>"; };
+		AA2F3130279A9EB20042E104 /* DYBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseTableView.h; sourceTree = "<group>"; };
+		AA2F3131279A9EB20042E104 /* DYBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseTableView.m; sourceTree = "<group>"; };
+		AA4A01352796ADAE002B804E /* DYBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseTabBarController.h; sourceTree = "<group>"; };
+		AA4A01362796ADAE002B804E /* DYBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseTabBarController.m; sourceTree = "<group>"; };
+		AA4A013927982071002B804E /* DYMainAppearanceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYMainAppearanceManager.h; sourceTree = "<group>"; };
+		AA4A013A27982071002B804E /* DYMainAppearanceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYMainAppearanceManager.m; sourceTree = "<group>"; };
+		AA4A013C27982598002B804E /* DYCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYCommonTools.h; sourceTree = "<group>"; };
+		AA54182B279DDC91003726D3 /* DYTestingTableMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTestingTableMenuViewController.h; sourceTree = "<group>"; };
+		AA54182C279DDC91003726D3 /* DYTestingTableMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTestingTableMenuViewController.m; sourceTree = "<group>"; };
+		AA5E3C212B973F7F0099AE74 /* AHReactNativeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AHReactNativeSDK.framework; sourceTree = "<group>"; };
+		AA5E3C3D2B97411D0099AE74 /* AHRNLinearGradientManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AHRNLinearGradientManager.mm; sourceTree = "<group>"; };
+		AA5E3C3E2B97411D0099AE74 /* AHRNLinearGradientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHRNLinearGradientManager.h; sourceTree = "<group>"; };
+		AA5E3C3F2B97411D0099AE74 /* AHRNLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHRNLinearGradient.h; sourceTree = "<group>"; };
+		AA5E3C402B97411D0099AE74 /* AHRNLinearGradientImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHRNLinearGradientImpl.m; sourceTree = "<group>"; };
+		AA5E3C4B2B980C890099AE74 /* AHRNLinearGradient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AHRNLinearGradient.mm; sourceTree = "<group>"; };
+		AA5E3C4C2B980C890099AE74 /* AHRNLinearGradientImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHRNLinearGradientImpl.h; sourceTree = "<group>"; };
+		AA608BEF279DADB200C4BFE8 /* DYTestingMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTestingMenuViewController.h; sourceTree = "<group>"; };
+		AA608BF0279DADB200C4BFE8 /* DYTestingMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTestingMenuViewController.m; sourceTree = "<group>"; };
+		AA608BF2279DBC4D00C4BFE8 /* DYTestingMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTestingMainTabBarController.h; sourceTree = "<group>"; };
+		AA608BF3279DBC4D00C4BFE8 /* DYTestingMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTestingMainTabBarController.m; sourceTree = "<group>"; };
+		AA867E982B98DBF900286DAC /* Props.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Props.cpp; sourceTree = "<group>"; };
+		AA867E992B98DBF900286DAC /* EventEmitters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventEmitters.cpp; sourceTree = "<group>"; };
+		AA867E9A2B98DBF900286DAC /* ShadowNodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShadowNodes.cpp; sourceTree = "<group>"; };
+		AA867E9B2B98DBF900286DAC /* States.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = States.cpp; sourceTree = "<group>"; };
+		AAB9D98B27918560003733B9 /* DYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseViewController.h; sourceTree = "<group>"; };
+		AAB9D98C27918560003733B9 /* DYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseViewController.m; sourceTree = "<group>"; };
+		AAB9D98E2791862E003733B9 /* DYBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseNavigationController.h; sourceTree = "<group>"; };
+		AAB9D98F2791862E003733B9 /* DYBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseNavigationController.m; sourceTree = "<group>"; };
+		AACDC13D27A1482A008B47D5 /* DYBaseLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYBaseLabel.h; sourceTree = "<group>"; };
+		AACDC13E27A1482A008B47D5 /* DYBaseLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBaseLabel.m; sourceTree = "<group>"; };
+		AC7D82AA5A437E55052DB7B3 /* Pods-DYSanae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSanae.debug.xcconfig"; path = "Target Support Files/Pods-DYSanae/Pods-DYSanae.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0E6801278445F00003CB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E3C232B9740E30099AE74 /* AHReactNativeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64562239AE429A24F93A67BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D82AA5A437E55052DB7B3 /* Pods-DYSanae.debug.xcconfig */,
+				9FCDD40311881556EA59CD80 /* Pods-DYSanae.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA046FC5279959CF009D5E20 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				AA046FC627995B7B009D5E20 /* DYBaseView.h */,
+				AA046FC727995B7B009D5E20 /* DYBaseView.m */,
+				AA2F3130279A9EB20042E104 /* DYBaseTableView.h */,
+				AA2F3131279A9EB20042E104 /* DYBaseTableView.m */,
+				AA2B85E3279FE1C600068BFA /* DYBaseTableViewCell.h */,
+				AA2B85E4279FE1C600068BFA /* DYBaseTableViewCell.m */,
+				AACDC13D27A1482A008B47D5 /* DYBaseLabel.h */,
+				AACDC13E27A1482A008B47D5 /* DYBaseLabel.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		AA0E67FB278445F00003CB45 = {
+			isa = PBXGroup;
+			children = (
+				AA0E6806278445F00003CB45 /* DYSanae */,
+				AA0E6805278445F00003CB45 /* Products */,
+				64562239AE429A24F93A67BB /* Pods */,
+				F6B482F14BCDF39292769D05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0E6805278445F00003CB45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E6804278445F00003CB45 /* DYSanae.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0E6806278445F00003CB45 /* DYSanae */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E3C262B97411D0099AE74 /* AHRNLinearGradient */,
+				AA608BEE279D6DE100C4BFE8 /* Testing */,
+				AA4A013827981A2E002B804E /* Foundation */,
+				AAB9D984279173D7003733B9 /* AppDelegate */,
+				AA608BED279D6B4900C4BFE8 /* Modules */,
+				AAB9D981279173D6003733B9 /* BaseClass */,
+				AAB9D982279173D6003733B9 /* ThirdParty */,
+				AAB9D983279173D6003733B9 /* Utils */,
+				AA0E6813278445F30003CB45 /* Assets.xcassets */,
+				AA0E6818278445F30003CB45 /* Info.plist */,
+				AA0E6815278445F30003CB45 /* LaunchScreen.storyboard */,
+				AA0E6819278445F30003CB45 /* main.m */,
+			);
+			path = DYSanae;
+			sourceTree = "<group>";
+		};
+		AA4A013827981A2E002B804E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A013927982071002B804E /* DYMainAppearanceManager.h */,
+				AA4A013A27982071002B804E /* DYMainAppearanceManager.m */,
+			);
+			name = Foundation;
+			path = DYSanae/Foundation;
+			sourceTree = SOURCE_ROOT;
+		};
+		AA5E3C262B97411D0099AE74 /* AHRNLinearGradient */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E3C3D2B97411D0099AE74 /* AHRNLinearGradientManager.mm */,
+				AA5E3C4B2B980C890099AE74 /* AHRNLinearGradient.mm */,
+				AA5E3C4C2B980C890099AE74 /* AHRNLinearGradientImpl.h */,
+				AA5E3C3E2B97411D0099AE74 /* AHRNLinearGradientManager.h */,
+				AA5E3C3F2B97411D0099AE74 /* AHRNLinearGradient.h */,
+				AA5E3C402B97411D0099AE74 /* AHRNLinearGradientImpl.m */,
+				AA867E992B98DBF900286DAC /* EventEmitters.cpp */,
+				AA867E982B98DBF900286DAC /* Props.cpp */,
+				AA867E9A2B98DBF900286DAC /* ShadowNodes.cpp */,
+				AA867E9B2B98DBF900286DAC /* States.cpp */,
+			);
+			path = AHRNLinearGradient;
+			sourceTree = "<group>";
+		};
+		AA608BED279D6B4900C4BFE8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modules;
+			path = DYSanae/Modules;
+			sourceTree = SOURCE_ROOT;
+		};
+		AA608BEE279D6DE100C4BFE8 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				AA24BCA127B3ABFC00A6035C /* DYTestingLearningViewController.h */,
+				AA24BCA227B3ABFC00A6035C /* DYTestingLearningViewController.m */,
+				AA608BEF279DADB200C4BFE8 /* DYTestingMenuViewController.h */,
+				AA608BF0279DADB200C4BFE8 /* DYTestingMenuViewController.m */,
+				AA608BF2279DBC4D00C4BFE8 /* DYTestingMainTabBarController.h */,
+				AA608BF3279DBC4D00C4BFE8 /* DYTestingMainTabBarController.m */,
+				AA54182B279DDC91003726D3 /* DYTestingTableMenuViewController.h */,
+				AA54182C279DDC91003726D3 /* DYTestingTableMenuViewController.m */,
+				AA2B85E6279FFCAC00068BFA /* DYTestingTableViewCell.h */,
+				AA2B85E7279FFCAC00068BFA /* DYTestingTableViewCell.m */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		AAB9D981279173D6003733B9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				AA046FC5279959CF009D5E20 /* Control */,
+				AAB9D98827918100003733B9 /* NavgationController */,
+				AAB9D98927918100003733B9 /* RootViewController */,
+				AAB9D98A27918100003733B9 /* TabbarController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		AAB9D982279173D6003733B9 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		AAB9D983279173D6003733B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A013C27982598002B804E /* DYCommonTools.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AAB9D984279173D7003733B9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E6807278445F00003CB45 /* AppDelegate.h */,
+				AA0E6808278445F00003CB45 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AAB9D98827918100003733B9 /* NavgationController */ = {
+			isa = PBXGroup;
+			children = (
+				AAB9D98E2791862E003733B9 /* DYBaseNavigationController.h */,
+				AAB9D98F2791862E003733B9 /* DYBaseNavigationController.m */,
+			);
+			path = NavgationController;
+			sourceTree = "<group>";
+		};
+		AAB9D98927918100003733B9 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAB9D98B27918560003733B9 /* DYBaseViewController.h */,
+				AAB9D98C27918560003733B9 /* DYBaseViewController.m */,
+				AA046FC227995428009D5E20 /* DYBaseTableViewController.h */,
+				AA046FC327995428009D5E20 /* DYBaseTableViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		AAB9D98A27918100003733B9 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A01352796ADAE002B804E /* DYBaseTabBarController.h */,
+				AA4A01362796ADAE002B804E /* DYBaseTabBarController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		F6B482F14BCDF39292769D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E3C212B973F7F0099AE74 /* AHReactNativeSDK.framework */,
+				513FA18463F7B8B7007C67DF /* Pods_DYSanae.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0E6803278445F00003CB45 /* DYSanae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0E681D278445F30003CB45 /* Build configuration list for PBXNativeTarget "DYSanae" */;
+			buildPhases = (
+				45C63160C31756DC2987607D /* [CP] Check Pods Manifest.lock */,
+				AA0E6800278445F00003CB45 /* Sources */,
+				AA0E6801278445F00003CB45 /* Frameworks */,
+				AA0E6802278445F00003CB45 /* Resources */,
+				B5A212737256CFB7C08B6DAA /* [CP] Embed Pods Frameworks */,
+				AA5E3C252B9740E30099AE74 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYSanae;
+			productName = DYSanae;
+			productReference = AA0E6804278445F00003CB45 /* DYSanae.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0E67FC278445F00003CB45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA0E6803278445F00003CB45 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA0E67FF278445F00003CB45 /* Build configuration list for PBXProject "DYSanae" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0E67FB278445F00003CB45;
+			productRefGroup = AA0E6805278445F00003CB45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0E6803278445F00003CB45 /* DYSanae */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0E6802278445F00003CB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0E6817278445F30003CB45 /* LaunchScreen.storyboard in Resources */,
+				AA0E6814278445F30003CB45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C63160C31756DC2987607D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYSanae-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A212737256CFB7C08B6DAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYSanae/Pods-DYSanae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYSanae/Pods-DYSanae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DYSanae/Pods-DYSanae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0E6800278445F00003CB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACDC13F27A1482A008B47D5 /* DYBaseLabel.m in Sources */,
+				AA5E3C482B97411D0099AE74 /* AHRNLinearGradientManager.mm in Sources */,
+				AAB9D9902791862E003733B9 /* DYBaseNavigationController.m in Sources */,
+				AA5E3C492B97411D0099AE74 /* AHRNLinearGradientImpl.m in Sources */,
+				AA2B85E8279FFCAC00068BFA /* DYTestingTableViewCell.m in Sources */,
+				AA608BF4279DBC4D00C4BFE8 /* DYTestingMainTabBarController.m in Sources */,
+				AA046FC827995B7B009D5E20 /* DYBaseView.m in Sources */,
+				AA5E3C4D2B980C890099AE74 /* AHRNLinearGradient.mm in Sources */,
+				AA4A013B27982071002B804E /* DYMainAppearanceManager.m in Sources */,
+				AA4A01372796ADAE002B804E /* DYBaseTabBarController.m in Sources */,
+				AA0E6809278445F00003CB45 /* AppDelegate.m in Sources */,
+				AA0E681A278445F30003CB45 /* main.m in Sources */,
+				AA24BCA327B3ABFC00A6035C /* DYTestingLearningViewController.m in Sources */,
+				AA046FC427995428009D5E20 /* DYBaseTableViewController.m in Sources */,
+				AA867E9C2B98DBF900286DAC /* Props.cpp in Sources */,
+				AAB9D98D27918560003733B9 /* DYBaseViewController.m in Sources */,
+				AA867E9F2B98DBF900286DAC /* States.cpp in Sources */,
+				AA2B85E5279FE1C600068BFA /* DYBaseTableViewCell.m in Sources */,
+				AA867E9E2B98DBF900286DAC /* ShadowNodes.cpp in Sources */,
+				AA867E9D2B98DBF900286DAC /* EventEmitters.cpp in Sources */,
+				AA2F3132279A9EB20042E104 /* DYBaseTableView.m in Sources */,
+				AA54182D279DDC91003726D3 /* DYTestingTableMenuViewController.m in Sources */,
+				AA608BF1279DADB200C4BFE8 /* DYTestingMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA0E6815278445F30003CB45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0E6816278445F30003CB45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA0E681B278445F30003CB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA0E681C278445F30003CB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0E681E278445F30003CB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7D82AA5A437E55052DB7B3 /* Pods-DYSanae.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2H38P2K2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/RCT-Folly",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/RCTRequired",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/RCTTypeSafety",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/DoubleConversion",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-callinvoker",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-RCTFabric",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-jsi",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-jsiexecutor",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-Fabric",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-NativeModulesApple",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-jsinspector",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-RCTAppDelegate",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-Codegen",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-graphics",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/FBLazyVector",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/ReactCommon",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-debug",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/SocketRocket",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-cxxreact",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/React-utils",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/glog",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Public/Yoga",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/boost",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/Headers/Private/React-Core",
+					"$(PROJECT_DIR)/../react-native/ios/Pods/fmt",
+					/Users/atlantica/Desktop/git/DYSanae/AHReactNativeSDK.framework/Headers,
+				);
+				INFOPLIST_FILE = DYSanae/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dy.testing1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0E681F278445F30003CB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCDD40311881556EA59CD80 /* Pods-DYSanae.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2H38P2K2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DYSanae/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dy.testing1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0E67FF278445F00003CB45 /* Build configuration list for PBXProject "DYSanae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0E681B278445F30003CB45 /* Debug */,
+				AA0E681C278445F30003CB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0E681D278445F30003CB45 /* Build configuration list for PBXNativeTarget "DYSanae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0E681E278445F30003CB45 /* Debug */,
+				AA0E681F278445F30003CB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0E67FC278445F00003CB45 /* Project object */;
+}

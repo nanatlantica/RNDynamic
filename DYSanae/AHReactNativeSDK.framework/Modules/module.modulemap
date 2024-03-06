@@ -1,0 +1,6 @@
+framework module AHReactNativeSDK {
+  umbrella header "AHReactNativeSDK.h"
+  export *
+
+  module * { export * }
+}
